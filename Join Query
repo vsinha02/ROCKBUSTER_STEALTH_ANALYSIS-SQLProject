@@ -1,0 +1,17 @@
+## This query identifies the top 5 customers with the highest total payment amounts from specific cities. It aggregates payment data and sorts it to find the most valuable customers based on their spending.
+
+select customer.customer_id, 
+       customer.first_name, 
+       customer.last_name, 
+       city.city, 
+       country.country,
+       sum(payment.amount) as payment_amount 
+from customer
+inner join payment on customer.customer_id = payment.customer_id
+inner join address on customer.address_id = address.address_id
+inner join city on address.city_id = city.city_id
+inner join country on city.country_id = country.country_id
+where city in ('Aurora', 'Acua', 'Citrus Heights', 'Iwaki', 'Ambattur', 'Shanwei', 'So Leopoldo', 'Teboksary', 'Tianjin', 'Cianjur')
+group by country.country, city.city, customer.customer_id
+order by payment_amount desc
+limit 5;
