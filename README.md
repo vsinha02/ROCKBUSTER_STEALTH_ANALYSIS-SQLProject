@@ -19,4 +19,4 @@ the main questions they’d like to answer:
 Rockbuster relational database management system and Postgre SQL was used for the analysis purpose. The data set includes information about Rockbuster’s film inventory, customers, payments, stores, staff, films, actors, rental history and addresses.
 
 ### Visualizations
-Our movie rental service company currently offer a selection of 1000 films exclusively in the English language, across 17 different categories in 109 country. Take a look at the Tableau Workbook on (https://public.tableau.com/app/profile/vineeta.sinha/viz/Rockbustercustomers_17022124318810/Sheet1)
+Our movie rental service company currently offer a selection of 1000 films exclusively in the English language, across 17 different categories in 109 country. Take a look at the Tableau Workbook on https://public.tableau.com/app/profile/vineeta.sinha/viz/Rockbustercustomers_17022124318810/Sheet1
