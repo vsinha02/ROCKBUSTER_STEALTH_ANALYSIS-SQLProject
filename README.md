@@ -20,3 +20,6 @@ Rockbuster relational database management system and Postgre SQL was used for th
 
 ### Visualizations
 Our movie rental service company currently offer a selection of 1000 films exclusively in the English language, across 17 different categories in 109 country. Take a look at the Tableau Workbook on https://public.tableau.com/app/profile/vineeta.sinha/viz/Rockbustercustomers_17022124318810/Sheet1
+
+## Final Project
+Final Project PDF: Find a detailed report in the (/
